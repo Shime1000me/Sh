@@ -1,0 +1,13 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://sh.tech/Sidama_edu_portal/sitemap.xml
+
+# Disable admin page from search engines
+Disallow: /admin.html
+
+# Disable any login/admin paths
+Disallow: /admin/
+Disallow: /login.html
